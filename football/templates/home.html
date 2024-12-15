@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resim Yükle</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Resim Yükleyin</h1>
+        <form action="/" method="POST" enctype="multipart/form-data">
+            <input type="file" name="image" accept="image/*" required class="file-input">
+            <button type="submit" class="upload-btn">Resmi Yükle</button>
+        </form>
+
+        {% if hata %}
+        <div class="error-message">{{ hata }}</div>
+        {% endif %}
+
+        {% if sinif %}
+        <div class="result-section">
+            <h2>Resim Sonuçları</h2>
+
+            <!-- Yüklenen Resmi Göster -->
+            <div class="image-container">
+                <img src="{{ x }}" alt="Yüklenen Resim" class="uploaded-image">
+            </div>
+
+            <p style="font-size: 28px;"><strong>Sınıf:</strong> {{ sinif }}</p>
+            <p style="font-size: 28px;"><strong>Skor:</strong> %{{ skor }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

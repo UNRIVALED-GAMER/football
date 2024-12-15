@@ -1,0 +1,30 @@
+0 Cristiano Ronaldo
+1 Lionel Messi
+2 Neymar Jr
+3 Kylian Mbappe
+4 Erling Haaland
+5 Robert Lewandowski
+6 Gareth Bale
+7 Arjen Robben
+8 Ronaldinho
+9 Vinicius jr
+10 Mohammed Salah
+11 Heung Min Son
+12 Pele
+13 Maradona
+14 Fenomen RoNaLdO
+15 Toni Kroos
+16 Samuel Eto'o
+17 Luis Figo
+18 Wayne Rooney
+19 David Beckham
+20 Didier Drogba
+21 Michael Owen
+22 Zinedine Zidane
+23 Johan Cruyff
+24 Roberto Carlos
+25 Paulo Maldini
+26 Karim Benzema
+27 Manuel Neuer
+28 Jude Bellingham
+29 Fabio Cannavaro

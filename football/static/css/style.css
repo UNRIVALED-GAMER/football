@@ -1,0 +1,99 @@
+/* Genel Sayfa Düzeni */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Sayfa Ana Konteyneri */
+.container {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Başlık */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Hata Mesajı */
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Dosya Yükleme Alanı */
+.file-input {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    background-color: #fafafa;
+    cursor: pointer;
+}
+
+/* Yükleme Butonu */
+.upload-btn {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Buton Hover Durumu */
+.upload-btn:hover {
+    background-color: #45a049;
+}
+
+/* Resim Sonuçları Alanı */
+.result-section {
+    margin-top: 30px;
+    text-align: left;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Resim Gösterim Alanı */
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.uploaded-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Resim Altındaki Bilgiler */
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+strong {
+    font-weight: bold;
+}
